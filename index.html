@@ -10,8 +10,32 @@
   <link href="https://fonts.googleapis.com/css?family=Oregano" rel="stylesheet">
 
   <body>
+    <div class="grid-container">
+      <div class="grid-x grid-padding-x">
+    <h2 class="cell small-12 large-6"><script>
+    var today= new Date();
+    var hourNow = today.getHours();
+
+    console.log(today);
+    console.log(hourNow);
+
+    var greeting;
+
+    if (hourNow > 18) {
+
+    greeting="Good evening and welcome!";
+    } else{
+    greeting= '<img src="images/rose.jpg">';
+    }
 
 
+
+    document.write(greeting);
+
+    </script>
+    </h2>
+  </div>
+</div>
     <div class="grid-container">
       <div class="grid-x grid-padding-x">
 
@@ -40,7 +64,7 @@
 
 <div class="grid-container cell small-12 large-6 ">
   <div class="grid-x grid-padding-x">
-  <h1 class="cell small-12 large-12">Attention Design Agencies!</h1>
+  <h1 class="cell small-12 large-12">Attention Cosmetic Companies!</h1>
 
 
 </div>
@@ -52,7 +76,11 @@
 
   <p class="testimonial cell small-12 large-12">Areej's Designs is
     dedicated to cater to the needs of customers. Areej's design's is ambitious and isn't restricted
- to a certain style of design.  </p>
+ to a certain style of design. Areej's Design's is dedicated to make every launch unique and
+ special in respect to the chosen theme by truly representing your vision by
+ designing packaging that accentuates your
+ products and makes each experience for a customer recieving your products special and
+  unforgetable therefore making you unforgetable.   </p>
 </div>
 </div>
 
