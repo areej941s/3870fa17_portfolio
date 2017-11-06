@@ -26,12 +26,13 @@ h2
 {font-family:'Oregano', cursive;
 font-size:35px;
 color: white;
-text-align: center;
+text-align: left;
 }
 h3{font-family:'Oregano', cursive;
 font-size:25px;
 
 }
+#landingheader{text-align: center;}
 
 
 p {
