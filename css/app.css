@@ -10,7 +10,7 @@ background-color: #3b0a19;
 
 nav
 {font-family:'Oregano', cursive;
-font-size: 30px;
+font-size: 25px;
 }
 
 .orbit {margin: auto;}
@@ -34,26 +34,23 @@ h3{font-family:'Oregano', cursive;
 font-size:25px;
 
 }
-#landingheader{text-align: center;}
+#landingheader{text-align: center;
+position: relative;}
 
 
 
-.about{margin: 15px 40px 50px 100px;
+.about
+{margin: 20px;
 font-size: 25px;
 color: white;
 font-family:'Oregano', cursive;
 position: relative;}
 
-footer {
-	background-color: #000000;
-	padding: 1rem;
 
-
-}
 .portfolio {font-size: 25px;
 color: white;
 font-family:'Oregano', cursive;
-margin: 20px;
+margin: 30px;
 
 
 }
@@ -70,7 +67,7 @@ a:visited {
 }
 
 a:hover {
-	color: #5f3586;
+	color: pink;
 }
 
 a:active {
@@ -105,7 +102,7 @@ padding: 25px;
 div.gallery {
     margin: 25px;
     border: 1px solid #ccc;
-    float: center;
+    float: inherit;
     width: 180px;
 }
 
@@ -118,6 +115,9 @@ div.gallery img {
     height: auto;
 }
 
+footer {
+	background-color: #000000;
+	padding: 1rem;
 
 
 }
