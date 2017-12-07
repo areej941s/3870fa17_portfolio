@@ -14,6 +14,7 @@ font-size: 25px;
 }
 
 .orbit {margin: auto;}
+
 h1
 {background-color: white;
 
@@ -21,7 +22,7 @@ text-align: center;
 font-family:'Oregano', cursive;
 font-size: 45px;
 padding: 1rem;
-margin: 25px;
+margin-top: 1rem;
 }
 
 h2
@@ -29,13 +30,16 @@ h2
 font-size:35px;
 color: white;
 text-align: left;
+padding-top: 1rem;
 }
 h3{font-family:'Oregano', cursive;
 font-size:25px;
 
 }
 #landingheader{text-align: center;
-position: relative;}
+
+
+}
 
 
 
@@ -50,7 +54,8 @@ position: relative;}
 .portfolio {font-size: 25px;
 color: white;
 font-family:'Oregano', cursive;
-margin: 30px;
+margin: 20px;
+
 
 
 }
@@ -82,7 +87,8 @@ a:active {
   background-color: #8d6a75;
 font-family:'Oregano', cursive;
 font-size: 20px;
-margin-bottom: 1em;
+margin-bottom: 2em;
+
 }
 
 .bigheadline {margin-top: 1rem;
@@ -92,18 +98,19 @@ color: #3b0a19;
 
 .testimonial{ font-family:'Oregano', cursive;
 font-size: 20px;
-background-color: black;
+
 color: white;
-margin: 20px,40px, 50px;
+
 padding: 25px;
 }
 
-/*portfolio gallery subject to change*/
+/*need to add discriptions to portfolio gallery*/
 div.gallery {
     margin: 25px;
     border: 1px solid #ccc;
     float: inherit;
     width: 180px;
+
 }
 
 div.gallery:hover {
@@ -118,6 +125,7 @@ div.gallery img {
 footer {
 	background-color: #000000;
 	padding: 1rem;
+	margin-top: 2rem;
 
 
 }
